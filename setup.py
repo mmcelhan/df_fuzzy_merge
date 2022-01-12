@@ -8,5 +8,5 @@ setup(name='df_fuzzy_merge',
       author_email='matt@lamplightlab.com',
       license='MIT',
       packages=['df_fuzzy_merge'],
-      install_requires=['nltk', 'fuzzywuzzy', 'pandas'],
+      install_requires=['nltk', 'fuzzywuzzy', 'pandas', 'python-Levenshtein'],
       zip_safe=False)

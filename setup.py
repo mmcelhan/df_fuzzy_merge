@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='fuzzy_merge',
+setup(name='df_fuzzy_merge',
       version='1.0',
       description='fuzzy merges two dataframes',
       url='https://lamplightlab.com',

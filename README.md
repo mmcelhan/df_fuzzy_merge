@@ -1,12 +1,12 @@
-#df_fuzzy_merge
+# df_fuzzy_merge
 
 fuzzy merge for pandas dataframe package
 
-##local install:
+## local install:
 
 pip install git+https://github.com/mmcelhan/df_fuzzy_merge.git#egg=df_fuzzy_merge
 
-##to test:
+## to test:
 
 import df_fuzzy_merge as df
 
@@ -21,6 +21,6 @@ merged_df = df.df_fuzzy_merge(first_df, second_df, left_on=['last_name', 'first_
 
 print(merged_df)
 
-##source code available here:
+## source code available here:
 
 https://github.com/mmcelhan/dataframe_fuzzy_merge_source

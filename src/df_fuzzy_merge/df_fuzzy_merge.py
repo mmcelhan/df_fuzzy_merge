@@ -1,8 +1,6 @@
 import pandas as pd
 import fuzzywuzzy
 from fuzzywuzzy import process
-import json
-import os
 import nltk
 from nltk.corpus import stopwords
 

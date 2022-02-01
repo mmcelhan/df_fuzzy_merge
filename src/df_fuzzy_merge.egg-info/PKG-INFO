@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: df-fuzzy-merge
+Version: 0.0.2
+Summary: Package that fuzzy merges two dataframes
+Home-page: https://github.com/mmcelhan/df_fuzzy_merge
+Author: Matthew McElhaney
+Author-email: matt@lamplightlab.com
+License: UNKNOWN
+Project-URL: blog post, https://lamplightlab.com/2022/01/12/dataframe-fuzzy-matching/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 #df_fuzzy_merge
 fuzzy merge for pandas dataframe package
 
@@ -5,19 +22,17 @@ fuzzy merge for pandas dataframe package
 pip install git+https://github.com/mmcelhan/df_fuzzy_merge.git#egg=df_fuzzy_merge
 
 ## to test:
-
 import df_fuzzy_merge as df
-
 import os
-
 import pandas as pd
 
 first_df = pd.read_csv(os.path.join("testing_files", "data_1.csv"))
 second_df = pd.read_csv(os.path.join("testing_files", "data_2.csv"))
 
 merged_df = df.df_fuzzy_merge(first_df, second_df, left_on=['last_name', 'first_name', 'school'], right_on=['first_name', 'school', 'last_name'])
-
 print(merged_df)
 
 ## source code available here:
 https://github.com/mmcelhan/dataframe_fuzzy_merge_source
+
+

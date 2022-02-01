@@ -1,4 +1,0 @@
-nltk
-fuzzywuzzy
-pandas
-python-Levenshtein

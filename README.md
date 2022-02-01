@@ -1,7 +1,9 @@
 #df_fuzzy_merge
+
 fuzzy merge for pandas dataframe package
 
 ##local install:
+
 pip install git+https://github.com/mmcelhan/df_fuzzy_merge.git#egg=df_fuzzy_merge
 
 ##to test:

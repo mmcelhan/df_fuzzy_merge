@@ -7,4 +7,5 @@ src/df_fuzzy_merge/df_fuzzy_merge.py
 src/df_fuzzy_merge.egg-info/PKG-INFO
 src/df_fuzzy_merge.egg-info/SOURCES.txt
 src/df_fuzzy_merge.egg-info/dependency_links.txt
+src/df_fuzzy_merge.egg-info/requires.txt
 src/df_fuzzy_merge.egg-info/top_level.txt
